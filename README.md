@@ -1,2 +1,2 @@
-web
+TEAM TAKOYAKIのWebサイトです
 ===
