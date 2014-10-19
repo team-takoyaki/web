@@ -1,0 +1,221 @@
+body{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-size: 13px;
+	font-family: Times;
+	background-color: #1D1D1D;
+}
+
+#adjustWidth{
+	max-width: 100%;
+	width: 800px;
+	margin: auto;
+}
+
+/*ヘッダー部分*/
+header{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	background-color: rgb(176,196,222);
+}
+
+#logoArea{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	background-color: #1D1D1D;
+	min-width: 200px;
+	/*margin-left: 3%;
+	padding-top: 2%;*/
+}
+
+
+@font-face {
+    font-family: "Oranienbaum";
+    src: local("Oranienbaum"), url("http://www.google.com/webfonts#UsePlace:use") format("truetype");
+}
+
+#logoName{
+	font-size: 45px;
+	margin-top: 15px;
+	padding: 0px;
+	font-family: "Oranienbaum", serif;
+	margin-bottom: 0px;
+}
+
+/*ヘッダー部分終了*/
+
+/*ナビゲーション部分開始*/
+ul{
+	list-style:none;
+	margin-left: 0px;  
+    padding-left: 0px; 
+    margin-top: 0px;
+}
+
+li{
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link { 
+	color: white;　/* リンク */
+}   
+
+a:visited {                 /* 既に見たリンク */
+  	color: white;
+}
+
+a:active {
+	color: white; /* クリック時のリンク */
+} 
+
+a.changeLinkColor {                   /* カーソルが上にある時のリンク */
+  	color: orange;
+  	text-decoration: none;     /* 下線を消す */
+}
+
+
+a:hover{
+	color: white;
+}
+
+
+nav{
+	padding-top: 20px;
+}
+
+#navigation{
+	position: relative;
+}
+
+.sub_navigation{
+	font-size: 13px;
+	margin: 0px;
+	margin-top: 5px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+#none_appear{
+	display: none;
+}
+
+#fixedNav{
+	margin-top:20px;
+	min-width: 170px;
+	margin-right: 30px;
+	border-top-style: ridge;
+	border-top-width: thin;
+}
+
+
+/*ナビゲーション部分終了*/
+
+
+/*Activity部分開始*/
+h1{
+	font-size: 35px;
+	margin-top: 0px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+.profile{
+	/*margin-top: 3%;*/
+	margin-bottom: 20px;
+}
+
+.product{
+	margin-bottom: 50px;
+}
+
+.cntPfl{
+	margin-left: 20px;
+}
+
+.contProduct{
+	margin-left: 20px;
+}
+
+.expProduct{
+	max-width: 450px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.todo_in_product{
+	font-size: 13px;
+	margin-left: 0px;
+}
+
+p{
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+section{
+	margin-top: 20px;
+	margin-bottom: 45px;
+	min-width: 600px;
+}
+
+.float{
+	display:-webkit-box;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	-o-box-orient: horizontal;
+	-ms-box-orient: horizontal;
+}
+
+.photoPosition{
+	margin-left: 120px;
+}
+
+#content{
+	/*margin-top: 50px;*/
+	background-color: #1D1D1D;
+	display: -webkit-box;
+	-moz-box-orient: horizontal;
+	-webkit-box-orient: horizontal;
+	-o-box-orient: horizontal;
+	-ms-box-orient: horizontal;
+}
+
+#allAcricle{
+	margin-top: 20px;
+	/*overflow-y: auto;*/
+	border-top-style: ridge;
+	border-top-width: thin;
+	max-width: 600px;
+	/*width: 70%;*/
+}
+
+.scrShotCnt{
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 100px;
+	height: 150px;
+}
+/*Activity部分開始*/
+
+footer{
+	text-align: right;
+	margin: 20px;
+	border-top-style: ridge;
+	border-top-width: thin;
+}
+
+/*メンバーの画像ファイル調整*/
+img.imgMember{
+	width: 100px;
+	border-radius:5px;
+}

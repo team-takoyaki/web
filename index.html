@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name = "format-detection" content = "telephone=no"/>
+        <meta name="viewport" content="width=device-width, user-scalable=yes" />
+        <link rel="stylesheet" href="stylesheet/takoyaki.css">
+        <script type="text/javascript" src="javascript/jquery.js"></script>
+        <script type="text/javascript" src="javascript/ui.core.js"></script>
+        <script type="text/javascript" src="javascript/jquery.scrollFollow.js"></script>
+        <script type="text/javascript" src="javascript/FancyZoom.js"></script>
+        <script type="text/javascript" src="javascript/FancyZoomHTML.js"></script>
+        <title>TEAM TAKOYAKI</title>
+    </head>
+    <body id="adjustWidth" onload="setupZoom()">
+        <header>
+            <img src="image/takoyaki.jpg" style="width:800px; height:400px">
+        </header>
+        <div id="logoArea">
+            <p id="logoName">TEAM TAKOYAKI</p>
+            <!--<img src="img/logo.png">-->
+        </div>
+        <div id="content">
+            <div id="fixedNav">
+                <div id="navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="#a">Activity</a></li>
+                            <li><a href="#b">About TAKOYAKI</a></li>
+                            <li><a href="#c">Introduce member</a></li>
+                            <li>
+                                <div class="appearNav">
+                                    <a href="#d" class="sub">Product</a>
+                                    <ul id="none_appear">                                        
+                                        <li class="sub_navigation"><a href="#d-c">ぼくの夢リスト</a></li>
+                                        <li class="sub_navigation"><a href="#d-b">ハローウィンカメラ</a></li>
+                                        <li class="sub_navigation"><a href="#d-a">でぃ〜くんのカメラ</a></li>
+                                   	<li class="sub_navigation"><a href="#d-d">Recom</a></li>
+				     </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="allAcricle">
+                <section>
+                    <h1><a id="a" name="a">Activity</a></h1>
+                    <article>
+                        <h2>HTML5 API ハッカソン at タネマキに参加!!!</h2>
+                        <p class="expProduct">6/4にタネマキで行なわれた「HTML5 API ハッカソン」に参加しました。
+                             <a class="changeLinkColor" href="http://tane-maki.net/blog/2014/html5-api/">HTML5 API ハッカソンへ</a>
+			</p>
+			<p class="expProduct">夜から始めて次の日の夕方まで開発をしました。チームたこやきは「インターネット焼却炉」という、ファイルを燃やすという斬新な切り口でファイルのことを振り返るWebサービスを作成してきました！！<br>
+			  <img src="image/product/internet_incinerator/internet_incinerator.png"><br>
+				 <a class="changeLinkColor" href="http://internet-incinerator.herokuapp.com/">インターネット焼却炉</a>
+			</p>
+			<p class="expProduct">パソコンからだけでなくiPhoneからでも体験ができるので是非一度触ってみてください！</p>
+                    </article>
+                    <article>
+                        <h2>Open Hack Day Japanに出場!!!</h2>
+                        <p class="expProduct">2/16, 17, 18にYahoo!Japanで行なわれた「Open Hack Day Japan」に参加しました。参加者は300名以上いました！！びっくり！
+                             <a class="changeLinkColor" href="http://yhacks.jp/hackday/">Open Hack Day Japanへ</a>
+			</p>
+			<p class="expProduct">2日間、計24時間の開発期間 + 90秒のプレゼン。数多くの有名な参加者がいる中、チームたこやきは「Recom」という、イベント検索アプリを作成し、発表してきましたよ！！
+				 <a class="changeLinkColor" href="http://yhacks.jp/hackday/works/1/32">Recom紹介ページ</a>
+			</p>
+			<p class="expProduct">Google Playに2/24にリリースされたばかりなので、是非一度触ってみてください！
+				<a class="changeLinkColor" href="https://play.google.com/store/apps/details?id=com.teamtakoyaki.recom&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS50ZWFtdGFrb3lha2kucmVjb20iXQ..">Google Playへ</a>
+			</p>
+                    </article>
+                </section>
+                <section>
+                    <h1><a id="b" name="b">About TAKOYAKI</a></h1>
+                    <p>私たち TEAM TAKOYAKI はとあるIT企業の同期たちによって結成したチームです。</p>
+                    <p>デザイナー1人、エンジニア3人から形成されている現チームは、しょうもないものを作ってます。</p>
+                </section>
+                <section>
+                    <h1><a id="c" name="c">Intrduce member</a></h1>
+                    <section id="osawa" class="profile">
+                        <div class="float">
+                            <img src="image/member/osawa.jpg" class="imgMember" width="100" height="100" alt="大澤が木に登っている画像です">
+                            <div class="cntPfl">
+                                <h2>Mika OSAWA</h2>
+                                <p>埼玉県出身。</p>
+                                <p>趣味: 外で遊ぶ事、カメラ</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="kasima" class="profile">
+                        <div class="float">
+                            <img src="image/member/kashima.jpg" class="imgMember" width="100" height="100" alt="加島が落書きされて寝ている画像です">
+                            <div class="cntPfl">
+                                <h2>Takumi KASHIMA</h2>
+                                <p>兵庫県姫路市出身。</p>
+                                <p>趣味: ぶらり歩くこと</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="honda" class="profile">
+                        <div class="float">
+                            <img src="image/member/honda.jpeg" class="imgMember" width="100" height="100" alt="本田のなんてゆうか。。画像です">
+                            <div class="cntPfl">
+                                <h2>Takashi HONDA</h2>
+                                <p>北海道岩見沢市出身。</p>
+                                <p>趣味: サイクリング、サバゲー、その他多数</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="segawa" class="profile">
+                        <div class="float">
+                            <img src="image/member/segawa.jpeg" class="imgMember" width="100" height="100" alt="
+                            瀬川の太陽に向かって歩いている画像です">
+                            <div class="cntPfl">
+                                <h2>Shota SEGAWA</h2>
+                                <p>香川県高松市出身。</p>
+                                <p>趣味: 海
+                                    外旅行、パズル</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <h1><a id="d" name="d">Product</a></h1>
+                        <article class="product">
+                            <div class="float">
+                                <img src="image/product/recom/icon_big.png" class="imgMember" width="100" height="100" alt="
+                                Recomの画像です">
+                                <div class="contProduct">
+                                    <h2><a id="d-c" name="d-d">Recom</a></h2>
+                                    <p class="expProduct">Open Hack Day Japanに参加しました。</p>
+                                    <h3>作品についての説明</h3>
+                                    <p class="expProduct">
+                                        ☆Recomイントロダクション<br>
+                                            <p>みなさんイベントに参加したことはありますか？</p>
+                                            <p>僕は多くのITの勉強会や美術館のイベントに参加しています。</p>
+                                            <p>しかし、イベントを見つけるのは大変です。</p>
+                                            <p>行きたいイベントを見つけても終わっていたり、定員オーバーで参加出来なかったり。。。</p>
+                                            <p>僕みたいな人に「Recom」はおすすめです。</p>
+                                    <p class="expProduct">Recomとは<br>
+                                        <ol>
+                                            <li class="todo_in_product">イベントをタイムライムに見やすく表示！</li>
+                                            <li class="todo_in_product">気になったイベントや参加予定のイベントをWatchリストにメモ！</li>
+                                            <li class="todo_in_product">友達がメモしたイベントをおすすめしてくれる！</li>
+					    <li class="todo_in_product">自分の見たいイベントだけを表示！</li>
+                                        </ol>
+                                    </p>
+				    <p>※現在はITのイベントに限定していますが、今後数あるイベントをキャッチできるようにしていきます。 </p>
+				</ol>
+                            </p>
+
+                                    <a class="changeLinkColor" href="http://team-takoyaki.com/recom">Recom公式ページへ</a>
+                                </div>
+                            </div>
+                            <div class="float photoPosition">
+                                <a href="image/product/recom/recommend.jpg"><img class="scrShotCnt" src="image/product/recom/recommend.jpg"></a>
+                                <a href="image/product/recom/detail.jpg"><img class="scrShotCnt" src="image/product/recom/detail.jpg"></a>
+                                <a href="image/product/recom/watch_list.jpg"><img class="scrShotCnt" src="image/product/recom/watch_list.jpg"></a>
+                            </div>
+                        </article>
+
+			<article class="product">
+                            <div class="float">
+                                <img src="image/product/mashupaward/middle_dream.png" class="imgMember" width="100" height="100" alt="
+                                ぼくの夢リストの画像です">
+                                <div class="contProduct">
+                                    <h2><a id="d-c" name="d-c">ぼくの夢リスト</a></h2>
+                                    <p class="expProduct">Mashup Award 8に「ぼくの夢リスト」を応募しました。今回は、応募総数460を超えております。</p>
+                                    <h3>作品についての説明</h3>
+                                    <p class="expProduct">
+                                        ☆ぼくの夢リストイントロダクション<br>
+                                            <p>人はそれぞれ大小違いこそあるとは思いますが夢を持っていますよね。</p>
+                                            <p>なりたい自分の将来像はある。。。</p>
+                                            <p>叶えたい夢も自分にはある。。。</p>
+                                            <p>でもどうやって叶えたらいいか分からない。。 </p>
+                                            <p>叶えたいのに叶えられない。 </p>
+                                            <p>頑張ろうと思ってもどうやって頑張ればいいか分からない。 </p>
+                                            <p>ゴール地点は明確でもどのようにゴールに辿り着くのか分からない。</p>
+                                            <p>そんな人にぴったりのサービスが「ぼくの夢リスト」です。</p>
+                                    <p class="expProduct">☆ぼくの夢リストとは<br>
+                                            夢を叶えるために、みんなで夢を達成するための知識を蓄積していきます。 
+                                            夢を応援し、知識を提供しあうことで、夢を叶えるまでの道筋を作りましょう。</p>
+                                    <p class="expProduct">☆ぼくの夢リストで出来ること
+                                        <ol>
+                                            <li class="todo_in_product">自分が叶えたい夢を投稿</li>
+                                            <li class="todo_in_product">みんなが夢を叶えるため情報を提供する</li>
+                                            <li class="todo_in_product">みんなが夢を叶える道筋を構成できる</li>
+                                        </ol>
+                                    </p>
+                                    このサービスを使ってみんなで夢を叶えましょう！
+                                </ol>
+                            </p>
+                                    <a class="changeLinkColor" href="http://ma8.mashupaward.jp/works/392">Mashup Awards 8へ</a>
+                                </div>
+                            </div>
+                            <div class="float photoPosition">
+                                <a href="image/product/mashupaward/dream_home.png"><img class="scrShotCnt" src="image/product/mashupaward/dream_home.png"></a>
+                                <a href="image/product/mashupaward/dream_make.png"><img class="scrShotCnt" src="image/product/mashupaward/dream_make.png"></a>
+                                <a href="image/product/mashupaward/dream_list.png"><img class="scrShotCnt" src="image/product/mashupaward/dream_list.png"></a>
+                            </div>
+                        </article>
+                        <article class="product">
+                            <div class="float">
+                                <img src="image/product/halloween_2012/sample_halloween.png" class="imgMember" width="100" height="100" alt="
+                                ハローウィン画像です ">
+                                <div class="contProduct">
+                                    <h2><a id="d-b" name="d-b">ハローウィンカメラ</a></h2>
+                                    <p class="expProduct">10/31のハローウィンのためにWebカメラを用いた簡単なカメラを作成しました。</p>
+                                    <a class="changeLinkColor" href="http://team-takoyaki.com/halloweenparty/">ハローウィンカメラへ</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="product">
+                            <div class="float">
+                                <img src="image/product/mr_d/mr_d.png" class="imgMember" width="100" height="100" alt="
+                                Mr.Dの画像です">
+                                <div class="contProduct">
+                                    <h2><a id="d-a" name="d-a">でぃ～くんのカメラ</a></h2>
+                                    <p class="expProduct">5/31よりTEAM TAKOYAKIはD君アプリというカメラアプリをGoogle Playにてリリースいたしました。</p>
+                                    <a class="changeLinkColor" href="https://play.google.com/store/apps/details?id=in.andante.D_Cam_10&feature=search_result#?t=W251bGwsMSwxLDEsImluLmFuZGFudGUuRF9DYW1fMTAiXQ..">GooglePlayへ</a>
+                                </div>
+                            </div>
+                            <div class="float photoPosition">
+                                <a href="image/product/mr_d/mr_d2.jpg"><img class="scrShotCnt" src="image/product/mr_d/mr_d2.jpg">
+                                <a href="image/product/mr_d/mr_d3.jpg"><img class="scrShotCnt" src="image/product/mr_d/mr_d3.jpg"></a>
+                                <a href="image/product/mr_d/mr_d4.jpg"><img class="scrShotCnt" src="image/product/mr_d/mr_d4.jpg"></a>
+                            </div>
+                        </article>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <small>Copyright &copy; TEAM TAKOYAKI</small>
+        </footer>
+        <script type="text/javascript" src="javascript/takoyaki.js"></script>
+    </body>
+</html>
+
